@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7313E03329F734EB00FA7CF2 /* TitlePueblo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03229F734EB00FA7CF2 /* TitlePueblo.swift */; };
+		7313E03529F7352100FA7CF2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03429F7352100FA7CF2 /* CircleImage.swift */; };
+		7313E03929F7368000FA7CF2 /* MapSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03829F7368000FA7CF2 /* MapSquare.swift */; };
+		7313E03B29F7377800FA7CF2 /* PuebloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03A29F7377800FA7CF2 /* PuebloView.swift */; };
+		7313E03D29F7409600FA7CF2 /* NosotrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03C29F7409600FA7CF2 /* NosotrosView.swift */; };
+		7313E03F29F744A400FA7CF2 /* SquareTopImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313E03E29F744A400FA7CF2 /* SquareTopImage.swift */; };
+		73154F5529F7487B003E144E /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73154F5429F7487B003E144E /* TourView.swift */; };
+		73154F5729F74A8F003E144E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73154F5629F74A8F003E144E /* ContentView.swift */; };
 		7318A93629F6E721006B7879 /* Objetivo1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A93529F6E721006B7879 /* Objetivo1App.swift */; };
-		7318A93829F6E721006B7879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A93729F6E721006B7879 /* ContentView.swift */; };
 		7318A93A29F6E723006B7879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7318A93929F6E723006B7879 /* Assets.xcassets */; };
 		7318A93D29F6E723006B7879 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7318A93C29F6E723006B7879 /* Preview Assets.xcassets */; };
 		7318A94729F6E723006B7879 /* Objetivo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A94629F6E723006B7879 /* Objetivo1Tests.swift */; };
 		7318A95129F6E723006B7879 /* Objetivo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95029F6E723006B7879 /* Objetivo1UITests.swift */; };
 		7318A95329F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */; };
 		7318A96129F6E855006B7879 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A96029F6E855006B7879 /* SignupView.swift */; };
+		73A68B9129F718E000C6BF64 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9029F718E000C6BF64 /* MenuView.swift */; };
+		73A68B9429F71D2B00C6BF64 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9329F71D2B00C6BF64 /* MenuButton.swift */; };
+		73A68B9929F729D500C6BF64 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9829F729D500C6BF64 /* Models.swift */; };
+		73A68B9B29F72A0500C6BF64 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9A29F72A0500C6BF64 /* Data.swift */; };
+		73FB0EC929F6EEF600E8002F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB0EC829F6EEF600E8002F /* LoginView.swift */; };
+		73FB0ECD29F7027900E8002F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73FB0ECC29F7027900E8002F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7313E03229F734EB00FA7CF2 /* TitlePueblo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePueblo.swift; sourceTree = "<group>"; };
+		7313E03429F7352100FA7CF2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7313E03829F7368000FA7CF2 /* MapSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSquare.swift; sourceTree = "<group>"; };
+		7313E03A29F7377800FA7CF2 /* PuebloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuebloView.swift; sourceTree = "<group>"; };
+		7313E03C29F7409600FA7CF2 /* NosotrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NosotrosView.swift; sourceTree = "<group>"; };
+		7313E03E29F744A400FA7CF2 /* SquareTopImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTopImage.swift; sourceTree = "<group>"; };
+		73154F5429F7487B003E144E /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
+		73154F5629F74A8F003E144E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7318A93229F6E721006B7879 /* Objetivo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Objetivo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7318A93529F6E721006B7879 /* Objetivo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1App.swift; sourceTree = "<group>"; };
-		7318A93729F6E721006B7879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7318A93929F6E723006B7879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7318A93C29F6E723006B7879 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7318A94229F6E723006B7879 /* Objetivo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Objetivo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +66,12 @@
 		7318A95029F6E723006B7879 /* Objetivo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITests.swift; sourceTree = "<group>"; };
 		7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7318A96029F6E855006B7879 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		73A68B9029F718E000C6BF64 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		73A68B9329F71D2B00C6BF64 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		73A68B9829F729D500C6BF64 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		73A68B9A29F72A0500C6BF64 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		73FB0EC829F6EEF600E8002F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		73FB0ECC29F7027900E8002F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +122,12 @@
 		7318A93429F6E721006B7879 /* Objetivo1 */ = {
 			isa = PBXGroup;
 			children = (
-				7318A93729F6E721006B7879 /* ContentView.swift */,
-				7318A96029F6E855006B7879 /* SignupView.swift */,
+				73A68B9729F729AB00C6BF64 /* Data */,
+				73A68B9529F7210100C6BF64 /* Views */,
+				73A68B9229F71D1A00C6BF64 /* Components */,
+				73FB0ECC29F7027900E8002F /* GoogleService-Info.plist */,
 				7318A93529F6E721006B7879 /* Objetivo1App.swift */,
+				73154F5629F74A8F003E144E /* ContentView.swift */,
 				7318A93929F6E723006B7879 /* Assets.xcassets */,
 				7318A93B29F6E723006B7879 /* Preview Content */,
 			);
@@ -130,6 +159,48 @@
 			path = Objetivo1UITests;
 			sourceTree = "<group>";
 		};
+		73A68B9229F71D1A00C6BF64 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				73A68B9329F71D2B00C6BF64 /* MenuButton.swift */,
+				7313E03E29F744A400FA7CF2 /* SquareTopImage.swift */,
+				7313E03229F734EB00FA7CF2 /* TitlePueblo.swift */,
+				7313E03429F7352100FA7CF2 /* CircleImage.swift */,
+				7313E03829F7368000FA7CF2 /* MapSquare.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		73A68B9529F7210100C6BF64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7313E03A29F7377800FA7CF2 /* PuebloView.swift */,
+				73154F5429F7487B003E144E /* TourView.swift */,
+				7313E03C29F7409600FA7CF2 /* NosotrosView.swift */,
+				73A68B9029F718E000C6BF64 /* MenuView.swift */,
+				73A68B9629F7210600C6BF64 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73A68B9629F7210600C6BF64 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				73FB0EC829F6EEF600E8002F /* LoginView.swift */,
+				7318A96029F6E855006B7879 /* SignupView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		73A68B9729F729AB00C6BF64 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				73A68B9829F729D500C6BF64 /* Models.swift */,
+				73A68B9A29F72A0500C6BF64 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +217,8 @@
 			dependencies = (
 			);
 			name = Objetivo1;
+			packageProductDependencies = (
+			);
 			productName = Objetivo1;
 			productReference = 7318A93229F6E721006B7879 /* Objetivo1.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +291,8 @@
 				Base,
 			);
 			mainGroup = 7318A92929F6E721006B7879;
+			packageReferences = (
+			);
 			productRefGroup = 7318A93329F6E721006B7879 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +311,7 @@
 			files = (
 				7318A93D29F6E723006B7879 /* Preview Assets.xcassets in Resources */,
 				7318A93A29F6E723006B7879 /* Assets.xcassets in Resources */,
+				73FB0ECD29F7027900E8002F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +336,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7313E03329F734EB00FA7CF2 /* TitlePueblo.swift in Sources */,
 				7318A96129F6E855006B7879 /* SignupView.swift in Sources */,
-				7318A93829F6E721006B7879 /* ContentView.swift in Sources */,
+				73A68B9129F718E000C6BF64 /* MenuView.swift in Sources */,
+				7313E03929F7368000FA7CF2 /* MapSquare.swift in Sources */,
+				7313E03F29F744A400FA7CF2 /* SquareTopImage.swift in Sources */,
+				73A68B9429F71D2B00C6BF64 /* MenuButton.swift in Sources */,
+				7313E03B29F7377800FA7CF2 /* PuebloView.swift in Sources */,
+				7313E03D29F7409600FA7CF2 /* NosotrosView.swift in Sources */,
+				73FB0EC929F6EEF600E8002F /* LoginView.swift in Sources */,
+				73154F5529F7487B003E144E /* TourView.swift in Sources */,
 				7318A93629F6E721006B7879 /* Objetivo1App.swift in Sources */,
+				73154F5729F74A8F003E144E /* ContentView.swift in Sources */,
+				73A68B9929F729D500C6BF64 /* Models.swift in Sources */,
+				73A68B9B29F72A0500C6BF64 /* Data.swift in Sources */,
+				7313E03529F7352100FA7CF2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
