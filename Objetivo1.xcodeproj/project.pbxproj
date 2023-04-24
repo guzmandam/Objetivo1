@@ -14,6 +14,7 @@
 		7318A94729F6E723006B7879 /* Objetivo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A94629F6E723006B7879 /* Objetivo1Tests.swift */; };
 		7318A95129F6E723006B7879 /* Objetivo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95029F6E723006B7879 /* Objetivo1UITests.swift */; };
 		7318A95329F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */; };
+		7318A96129F6E855006B7879 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A96029F6E855006B7879 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7318A94C29F6E723006B7879 /* Objetivo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Objetivo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7318A95029F6E723006B7879 /* Objetivo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITests.swift; sourceTree = "<group>"; };
 		7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7318A96029F6E855006B7879 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		7318A93429F6E721006B7879 /* Objetivo1 */ = {
 			isa = PBXGroup;
 			children = (
-				7318A93529F6E721006B7879 /* Objetivo1App.swift */,
 				7318A93729F6E721006B7879 /* ContentView.swift */,
+				7318A96029F6E855006B7879 /* SignupView.swift */,
+				7318A93529F6E721006B7879 /* Objetivo1App.swift */,
 				7318A93929F6E723006B7879 /* Assets.xcassets */,
 				7318A93B29F6E723006B7879 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7318A96129F6E855006B7879 /* SignupView.swift in Sources */,
 				7318A93829F6E721006B7879 /* ContentView.swift in Sources */,
 				7318A93629F6E721006B7879 /* Objetivo1App.swift in Sources */,
 			);
