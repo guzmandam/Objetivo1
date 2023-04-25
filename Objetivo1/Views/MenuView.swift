@@ -26,6 +26,7 @@ struct MenuView: View {
                     MenuButton(text: "Estados")
                 }
                 NavigationLink {
+                    ToursView()
                 } label: {
                     MenuButton(text: "Tours")
                 }

@@ -22,6 +22,12 @@
 		7318A95129F6E723006B7879 /* Objetivo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95029F6E723006B7879 /* Objetivo1UITests.swift */; };
 		7318A95329F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */; };
 		7318A96129F6E855006B7879 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318A96029F6E855006B7879 /* SignupView.swift */; };
+		7337DA0329F83D1500355113 /* PuebloCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0229F83D1500355113 /* PuebloCard.swift */; };
+		7337DA0529F841DE00355113 /* ToursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0429F841DE00355113 /* ToursView.swift */; };
+		7337DA0729F8428200355113 /* TitleTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0629F8428200355113 /* TitleTour.swift */; };
+		7337DA0929F8439400355113 /* TourCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0829F8439400355113 /* TourCard.swift */; };
+		7371350B29F82B51002FC78A /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371350A29F82B51002FC78A /* CheckoutView.swift */; };
+		7371350D29F82C2C002FC78A /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371350C29F82C2C002FC78A /* FormView.swift */; };
 		73A68B9129F718E000C6BF64 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9029F718E000C6BF64 /* MenuView.swift */; };
 		73A68B9429F71D2B00C6BF64 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9329F71D2B00C6BF64 /* MenuButton.swift */; };
 		73A68B9929F729D500C6BF64 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9829F729D500C6BF64 /* Models.swift */; };
@@ -66,6 +72,12 @@
 		7318A95029F6E723006B7879 /* Objetivo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITests.swift; sourceTree = "<group>"; };
 		7318A95229F6E723006B7879 /* Objetivo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objetivo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7318A96029F6E855006B7879 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		7337DA0229F83D1500355113 /* PuebloCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuebloCard.swift; sourceTree = "<group>"; };
+		7337DA0429F841DE00355113 /* ToursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursView.swift; sourceTree = "<group>"; };
+		7337DA0629F8428200355113 /* TitleTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTour.swift; sourceTree = "<group>"; };
+		7337DA0829F8439400355113 /* TourCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCard.swift; sourceTree = "<group>"; };
+		7371350A29F82B51002FC78A /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		7371350C29F82C2C002FC78A /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		73A68B9029F718E000C6BF64 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		73A68B9329F71D2B00C6BF64 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		73A68B9829F729D500C6BF64 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
@@ -165,6 +177,9 @@
 				73A68B9329F71D2B00C6BF64 /* MenuButton.swift */,
 				7313E03E29F744A400FA7CF2 /* SquareTopImage.swift */,
 				7313E03229F734EB00FA7CF2 /* TitlePueblo.swift */,
+				7337DA0629F8428200355113 /* TitleTour.swift */,
+				7337DA0229F83D1500355113 /* PuebloCard.swift */,
+				7337DA0829F8439400355113 /* TourCard.swift */,
 				7313E03429F7352100FA7CF2 /* CircleImage.swift */,
 				7313E03829F7368000FA7CF2 /* MapSquare.swift */,
 			);
@@ -176,6 +191,9 @@
 			children = (
 				7313E03A29F7377800FA7CF2 /* PuebloView.swift */,
 				73154F5429F7487B003E144E /* TourView.swift */,
+				7337DA0429F841DE00355113 /* ToursView.swift */,
+				7371350A29F82B51002FC78A /* CheckoutView.swift */,
+				7371350C29F82C2C002FC78A /* FormView.swift */,
 				7313E03C29F7409600FA7CF2 /* NosotrosView.swift */,
 				73A68B9029F718E000C6BF64 /* MenuView.swift */,
 				73A68B9629F7210600C6BF64 /* Auth */,
@@ -337,8 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7313E03329F734EB00FA7CF2 /* TitlePueblo.swift in Sources */,
+				7337DA0329F83D1500355113 /* PuebloCard.swift in Sources */,
 				7318A96129F6E855006B7879 /* SignupView.swift in Sources */,
 				73A68B9129F718E000C6BF64 /* MenuView.swift in Sources */,
+				7337DA0529F841DE00355113 /* ToursView.swift in Sources */,
 				7313E03929F7368000FA7CF2 /* MapSquare.swift in Sources */,
 				7313E03F29F744A400FA7CF2 /* SquareTopImage.swift in Sources */,
 				73A68B9429F71D2B00C6BF64 /* MenuButton.swift in Sources */,
@@ -347,9 +367,13 @@
 				73FB0EC929F6EEF600E8002F /* LoginView.swift in Sources */,
 				73154F5529F7487B003E144E /* TourView.swift in Sources */,
 				7318A93629F6E721006B7879 /* Objetivo1App.swift in Sources */,
+				7337DA0929F8439400355113 /* TourCard.swift in Sources */,
 				73154F5729F74A8F003E144E /* ContentView.swift in Sources */,
 				73A68B9929F729D500C6BF64 /* Models.swift in Sources */,
 				73A68B9B29F72A0500C6BF64 /* Data.swift in Sources */,
+				7371350B29F82B51002FC78A /* CheckoutView.swift in Sources */,
+				7371350D29F82C2C002FC78A /* FormView.swift in Sources */,
+				7337DA0729F8428200355113 /* TitleTour.swift in Sources */,
 				7313E03529F7352100FA7CF2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

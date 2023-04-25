@@ -21,6 +21,6 @@ struct MapSquare: View {
 
 struct MapSquare_Previews: PreviewProvider {
     static var previews: some View {
-        MapSquare(coordinates: taxcoDos.coordenadas)
+        MapSquare(coordinates: taxco.coordenadas)
     }
 }

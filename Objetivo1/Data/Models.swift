@@ -12,10 +12,15 @@ struct Tour {
     var nombre: String
     var pueblos: [PuebloMagico]
     var precio: Float
+    var dias: Int
     var fecha: Date
 }
 
 struct Usuario {
     var username: String
     var password: String
+}
+
+struct PueblosParaTour {
+    var pueblos: [PuebloMagico]
 }

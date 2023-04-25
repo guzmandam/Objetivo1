@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct SquareTopImage: View {
-    var image: String
-    var name: String
+    var tour: Tour
     
     var body: some View {
         VStack(alignment: .leading) {
             VStack() {
-                Image(self.image)
+                Image(self.tour.pueblos[1].imagen)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: /*@START_MENU_TOKEN@*/350.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
@@ -23,13 +22,11 @@ struct SquareTopImage: View {
                         Rectangle().stroke(.orange, lineWidth: 4)
                     }
                     .shadow(radius: 7)
-                Text(self.name)
-                    .font(.title)
-                    .multilineTextAlignment(.center)
-                    .bold()
-                    .offset(y: -70)
-                    .foregroundColor(.white)
-                Spacer()
+                    .overlay(Text(self.tour.nombre)
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                        .bold()
+                        .foregroundColor(.white))
             }
             .padding()
         }
@@ -38,6 +35,6 @@ struct SquareTopImage: View {
 
 struct SquareTopImage_Previews: PreviewProvider {
     static var previews: some View {
-        SquareTopImage(image: "mitla", name: "Mitla")
+        SquareTopImage(tour: primer_tour_oax)
     }
 }
