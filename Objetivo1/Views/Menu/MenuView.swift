@@ -15,7 +15,7 @@ struct MenuView: View {
                 Text("Inicio")
                     .font(.title)
                     .bold()
-                    .foregroundColor(.orange)
+                    .foregroundColor(Color("cafe"))
                 
                 Divider()
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -27,9 +27,9 @@ struct MenuView: View {
                     MenuButton(text: "Estados")
                 }
                 NavigationLink {
-                    ToursView()
+                    ToursView(tours: todosTours)
                 } label: {
-                    MenuButton(text: "Tours")
+                    MenuButton(text: "Recorridos")
                 }
                 NavigationLink {
                     NosotrosView()

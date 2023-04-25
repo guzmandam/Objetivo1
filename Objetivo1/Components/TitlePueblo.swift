@@ -18,6 +18,7 @@ struct PuebloTitle: View {
                 Text(self.name)
                     .font(.title)
                     .bold()
+                    .foregroundColor(Color("cafe"))
                 
                 HStack {
                     Text(self.state)
@@ -28,6 +29,8 @@ struct PuebloTitle: View {
                 Divider()
                 
                 Text(self.description)
+                    .foregroundColor(.black)
+                    .multilineTextAlignment(.leading)
             }
             .padding()
         }

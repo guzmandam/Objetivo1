@@ -41,10 +41,13 @@ struct GuerreroView: View {
                     .frame(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/60.0/*@END_MENU_TOKEN@*/)
                 Divider()
                 }
-            MenuButton(text: "Tours Disponibles")
-                .padding(.top)
-                .bold()
-
+            NavigationLink {
+                ToursView(tours: toursguerrero)
+            } label: {
+                MenuButton(text: "Recorridos Disponibles")
+                    .padding(.top)
+                    .bold()
+            }
             }
         }
         }

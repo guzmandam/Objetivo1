@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct ToursView: View {
+    var tours: [Tour]
     var body: some View {
         VStack {
-            Text("Tours Disponibles")
+            Text("Recorridos Disponibles")
                 .font(.title)
                 .bold()
                 .foregroundColor(.orange)
             
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    ForEach(0..<todosTours.count, id: \.self) {
+                    ForEach(0..<tours.count, id: \.self) {
                         item in
                         NavigationLink {
-                            TourView(tour: todosTours[item])
+                            TourView(tour: tours[item])
                         }
                     label: {
-                            TourCard(tour: todosTours[item])
+                            TourCard(tour: tours[item])
+                            .foregroundColor(Color("cafe"))
                         }
                     }
                 }
@@ -34,6 +36,6 @@ struct ToursView: View {
 
 struct ToursView_Previews: PreviewProvider {
     static var previews: some View {
-        ToursView()
+        ToursView(tours: todosTours)
     }
 }

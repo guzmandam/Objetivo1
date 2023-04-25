@@ -28,9 +28,12 @@ struct FormView: View {
                 .font(.title)
                 .bold()
                 .foregroundColor(.orange)
+                .padding(.top, 30)
+                .padding(.bottom, 10)
             Text("Cuéntanos más y así lograremos que llegues a más personas!")
                 .font(.headline)
                 .foregroundColor(.gray)
+                .padding(.bottom, 50)
             
             Text("¿En dónde se encuentra?")
                 .bold()
@@ -61,6 +64,7 @@ struct FormView: View {
                     .background(Color.orange)
                     .foregroundColor(.white)
                     .cornerRadius(8)
+                    .padding(.top, 30)
             
             Spacer()
             }

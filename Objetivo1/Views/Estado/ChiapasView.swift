@@ -55,9 +55,13 @@ struct ChiapasView: View {
                 .frame(width: /*@START_MENU_TOKEN@*/250.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
                 Divider()
                 }
-            MenuButton(text: "Tours Disponibles")
-                .padding(.top)
-                .bold()
+            NavigationLink {
+                ToursView(tours: tourschiapas)
+            } label: {
+                MenuButton(text: "Recorridos Disponibles")
+                    .padding(.top)
+                    .bold()
+            }
             }
         }
         }

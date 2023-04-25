@@ -15,6 +15,7 @@ struct TitleTour: View {
                 Text(tour.nombre)
                     .font(.title)
                     .bold()
+                    .foregroundColor(Color("cafe"))
                 
                 HStack {
                     Text("$ " + String(format: "%.2f", tour.precio))

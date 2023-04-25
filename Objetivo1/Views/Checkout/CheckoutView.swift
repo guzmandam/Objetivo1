@@ -97,15 +97,19 @@ struct CheckoutView: View {
                         .multilineTextAlignment(.center)
                         .padding()
                 }
-
-                Button("Pagar") {
+                NavigationLink {
+                    ThankYouView()
                 }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.orange)
-                .foregroundColor(.white)
-                .cornerRadius(8)
-                .padding(.horizontal)
+            label: {
+                    Button("Pagar") {
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.orange)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .padding(.horizontal)
+                }
             }
         }
     }

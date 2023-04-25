@@ -99,3 +99,9 @@ var chiapasE: Estado = Estado(nombre: "Chiapas", lema: "Cerro de la chia", image
 var guerreroE: Estado = Estado(nombre: "Guerrero", lema: "Mi patria es primero", imagen: "guerrero")
 
 var estadosE: [Estado] = [oaxacaE, chiapasE, guerreroE]
+
+var toursoaxaca: [Tour] = [primer_tour_oax, segundo_tour_oax, tercer_tour_oax]
+
+var tourschiapas: [Tour] = [primer_tour_chi, segundo_tour_oax, tercer_tour_chi, cuarto_tour_chi, quinto_tour_chi]
+
+var toursguerrero: [Tour] = [primer_tour_gue, segundo_tour_gue, tercer_tour_gue]

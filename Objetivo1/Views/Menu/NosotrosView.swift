@@ -5,8 +5,8 @@ struct NosotrosView: View {
             VStack {
                 VStack {
                     Text("Nosotros")
-                        .font(.largeTitle)
-                        .fontWeight(.medium)
+                        .font(.title)
+                        .fontWeight(.bold)
                         .padding(/*@START_MENU_TOKEN@*/.all, 10.0/*@END_MENU_TOKEN@*/)
                         .bold()
                         .foregroundColor(.orange)
@@ -18,7 +18,7 @@ struct NosotrosView: View {
                 
                 Text("Misión")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color("cafe"))
                     .bold()
                 Form {
                     Text("Tenemos el compromiso de hacer emerger aquellos lugares con riqueza cultural, para que sus pobladores mejoren su economia y revivan su hogar")
@@ -31,7 +31,7 @@ struct NosotrosView: View {
                 
                 Text("Visión")
                     .font(.title)
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color("cafe"))
                     .bold()
                 Form {
                     Text("Seremos colaboradores de los poblados que han sido olvidados para reconocerlos como un identificador de la riqueza cultural del país, así como en el turísmo.")

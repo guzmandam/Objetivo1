@@ -15,21 +15,21 @@ struct EstadosView: View {
             }
             label: {
                 TitleEstado(estado: oaxacaE)
-                    .foregroundColor(.black)
+                    .foregroundColor(.orange)
             }
             NavigationLink {
                 ChiapasView()
             }
         label: {
             TitleEstado(estado: chiapasE)
-                .foregroundColor(.black)
+                .foregroundColor(.orange)
         }
             NavigationLink {
                 GuerreroView()
             }
         label: {
             TitleEstado(estado: guerreroE)
-                .foregroundColor(.black)
+                .foregroundColor(.orange)
         }
         }
     }
