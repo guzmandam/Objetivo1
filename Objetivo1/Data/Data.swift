@@ -41,7 +41,7 @@ var parque_nacional_canon_del_sumidero = PuebloMagico(nombre: "Parque Nacional C
 
 var zona_arqueologica_de_yaxchilan = PuebloMagico(nombre: "Zona Arqueológica de Yaxchilán ", coordenadas: [16.899_048_419_389_676, -90.965_643_357_012_84], descripcion: "Esta es una antigua ciudad de la cultura maya situada en la orilla del famoso Rio Usumacinta, por el cual podras navegar en bote", imagen: "yaxchilan", estado: "Chiapas")
 
-var cascadas_de_agua_azul = PuebloMagico(nombre: "Cascadas de Agua Azul", coordenadas: [17.254_189_437_889_3, -92.108_868_630_852_67], descripcion: "Esta es un area protegida debido a su flora y fauna, lo cual lo hace un lugar muy maravilloso.", imagen: "cascadas_de_agua_azul", estado: "Chiapas")
+var cascadas_de_agua_azul = PuebloMagico(nombre: "Cascadas de Agua Azul", coordenadas: [17.254_189_437_889_3, -92.108_868_630_852_67], descripcion: "Esta es un area protegida debido a su flora y fauna, lo cual lo hace un lugar muy maravilloso.", imagen: "cascadas_agua_azul", estado: "Chiapas")
 
 var zona_arqueologica_palenque = PuebloMagico(nombre: "Zona Arqueológica Palenque", coordenadas: [17.485_245_539_917_84, -92.045_932_450_925_63], descripcion: "Este es un lugar arqueologico maya muy bonito ya que se encuentra en el centro de una selva tropical", imagen: "zona_arqueologica_palenque", estado: "Chiapas")
 
@@ -102,6 +102,6 @@ var estadosE: [Estado] = [oaxacaE, chiapasE, guerreroE]
 
 var toursoaxaca: [Tour] = [primer_tour_oax, segundo_tour_oax, tercer_tour_oax]
 
-var tourschiapas: [Tour] = [primer_tour_chi, segundo_tour_oax, tercer_tour_chi, cuarto_tour_chi, quinto_tour_chi]
+var tourschiapas: [Tour] = [primer_tour_chi, segundo_tour_chi, tercer_tour_chi, cuarto_tour_chi, quinto_tour_chi]
 
 var toursguerrero: [Tour] = [primer_tour_gue, segundo_tour_gue, tercer_tour_gue]
