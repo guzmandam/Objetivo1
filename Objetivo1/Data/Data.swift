@@ -93,3 +93,9 @@ var chiapas = PueblosParaTour(pueblos: [parque_nacional_lagunas_de_montebello, l
 var guerrero = PueblosParaTour(pueblos: [isla_la_roqueta, la_quebrada_cliff_divers, laguna_de_coyuca, parque_acuatico_magic_world, zocalo, taxco, parque_nacional_grutas_de_cacahuamilpa])
 
 var todosTours: [Tour] = [primer_tour_oax, segundo_tour_oax, tercer_tour_oax, primer_tour_chi, segundo_tour_oax, tercer_tour_chi, cuarto_tour_chi, quinto_tour_chi, primer_tour_gue, segundo_tour_gue, tercer_tour_gue]
+
+var oaxacaE: Estado = Estado(nombre: "Oaxaca", lema: "Tierra del sol", imagen: "oaxaca")
+var chiapasE: Estado = Estado(nombre: "Chiapas", lema: "Cerro de la chia", imagen: "chiapas")
+var guerreroE: Estado = Estado(nombre: "Guerrero", lema: "Mi patria es primero", imagen: "guerrero")
+
+var estadosE: [Estado] = [oaxacaE, chiapasE, guerreroE]

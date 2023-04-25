@@ -16,7 +16,6 @@ struct CheckoutView: View {
     @State private var cvv = ""
     
     var body: some View {
-        NavigationView {
             VStack {
                 SquareTopImage(tour: tour)
                 
@@ -45,6 +44,13 @@ struct CheckoutView: View {
                         TextField("4152 2324 1256 2321", text: $cardNumber)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
+                        
+                        if(cardNumber.count != 0) {
+
+                            Image(systemName: isValidCardNumber(cardNumber) ? "checkmark" : "xmark")
+                                .fontWeight(.bold)
+                                .foregroundColor(isValidCardNumber(cardNumber) ? .green : .red)
+                        }
                     }
                     
                     Text("Fecha de expiración")
@@ -54,6 +60,13 @@ struct CheckoutView: View {
                         TextField("MM/YY", text: $expirationDate)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
+                        
+                        if(expirationDate.count != 0) {
+
+                            Image(systemName: isValidExpirationDate(expirationDate) ? "checkmark" : "xmark")
+                                .fontWeight(.bold)
+                                .foregroundColor(isValidExpirationDate(expirationDate) ? .green : .red)
+                        }
                     }
                     .padding(.top, 1)
                     
@@ -64,6 +77,13 @@ struct CheckoutView: View {
                         TextField("CVV", text: $cvv)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .keyboardType(.numberPad)
+                        
+                        if(cvv.count != 0) {
+
+                            Image(systemName: isValidCVV(cvv) ? "checkmark" : "xmark")
+                                .fontWeight(.bold)
+                                .foregroundColor(isValidCVV(cvv) ? .green : .red)
+                        }
                     }
                 }
                 .padding()
@@ -79,11 +99,6 @@ struct CheckoutView: View {
                 }
 
                 Button("Pagar") {
-                    if isValidCardNumber(cardNumber) && isValidExpirationDate(expirationDate) && isValidCVV(cvv) {
-                        // Perform payment logic here
-                    } else {
-                        // Display error message or alert
-                    }
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
@@ -96,10 +111,8 @@ struct CheckoutView: View {
     }
     
     func isValidCardNumber(_ cardNumber: String) -> Bool {
-        // Strip any non-numeric characters from the card number
         let strippedCardNumber = cardNumber.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
         
-        // Check that the card number is between 12 and 19 digits long
         guard strippedCardNumber.count >= 12 && strippedCardNumber.count <= 19 else {
             return false
         }
@@ -108,22 +121,13 @@ struct CheckoutView: View {
     }
 
     func isValidExpirationDate(_ expirationDate: String) -> Bool {
-        // Split the expiration date into separate month and year components
         let components = expirationDate.split(separator: "/")
-        
-        // Ensure that the expiration date has two components (month and year)
+
         guard components.count == 2 else {
             return false
         }
         
-        // Parse the month and year components as integers
         guard let month = Int(components[0]), let year = Int(components[1]) else {
-            return false
-        }
-        
-        // Ensure that the month is between 1 and 12, and that the year is greater than or equal to the current year
-        let currentYear = Calendar.current.component(.year, from: Date())
-        guard month >= 1 && month <= 12 && year >= currentYear else {
             return false
         }
         
@@ -131,7 +135,6 @@ struct CheckoutView: View {
     }
 
     func isValidCVV(_ cvv: String) -> Bool {
-        // Check that the CVV is between 3 and 4 digits long
         guard cvv.count >= 3 && cvv.count <= 4 else {
             return false
         }
@@ -139,7 +142,6 @@ struct CheckoutView: View {
         return true
     }
 
-}
 struct CheckoutView_Previews: PreviewProvider {
     static var previews: some View {
         CheckoutView(tour: primer_tour_oax)

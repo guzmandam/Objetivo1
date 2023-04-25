@@ -24,3 +24,9 @@ struct Usuario {
 struct PueblosParaTour {
     var pueblos: [PuebloMagico]
 }
+
+struct Estado {
+    var nombre: String
+    var lema: String
+    var imagen: String
+}

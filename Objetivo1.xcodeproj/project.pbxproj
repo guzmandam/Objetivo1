@@ -26,6 +26,11 @@
 		7337DA0529F841DE00355113 /* ToursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0429F841DE00355113 /* ToursView.swift */; };
 		7337DA0729F8428200355113 /* TitleTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0629F8428200355113 /* TitleTour.swift */; };
 		7337DA0929F8439400355113 /* TourCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0829F8439400355113 /* TourCard.swift */; };
+		7337DA1029F85A1D00355113 /* ChiapasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA0F29F85A1D00355113 /* ChiapasView.swift */; };
+		7337DA1229F85AC300355113 /* GuerreroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA1129F85AC300355113 /* GuerreroView.swift */; };
+		7337DA1429F85CDF00355113 /* OaxacaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA1329F85CDF00355113 /* OaxacaView.swift */; };
+		7337DA1629F85D9100355113 /* EstadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA1529F85D9100355113 /* EstadosView.swift */; };
+		7337DA1C29F8647700355113 /* TitleEstado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337DA1B29F8647700355113 /* TitleEstado.swift */; };
 		7371350B29F82B51002FC78A /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371350A29F82B51002FC78A /* CheckoutView.swift */; };
 		7371350D29F82C2C002FC78A /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371350C29F82C2C002FC78A /* FormView.swift */; };
 		73A68B9129F718E000C6BF64 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A68B9029F718E000C6BF64 /* MenuView.swift */; };
@@ -76,6 +81,11 @@
 		7337DA0429F841DE00355113 /* ToursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursView.swift; sourceTree = "<group>"; };
 		7337DA0629F8428200355113 /* TitleTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTour.swift; sourceTree = "<group>"; };
 		7337DA0829F8439400355113 /* TourCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCard.swift; sourceTree = "<group>"; };
+		7337DA0F29F85A1D00355113 /* ChiapasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiapasView.swift; sourceTree = "<group>"; };
+		7337DA1129F85AC300355113 /* GuerreroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuerreroView.swift; sourceTree = "<group>"; };
+		7337DA1329F85CDF00355113 /* OaxacaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OaxacaView.swift; sourceTree = "<group>"; };
+		7337DA1529F85D9100355113 /* EstadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosView.swift; sourceTree = "<group>"; };
+		7337DA1B29F8647700355113 /* TitleEstado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleEstado.swift; sourceTree = "<group>"; };
 		7371350A29F82B51002FC78A /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		7371350C29F82C2C002FC78A /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		73A68B9029F718E000C6BF64 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -171,6 +181,52 @@
 			path = Objetivo1UITests;
 			sourceTree = "<group>";
 		};
+		7337DA0A29F8597B00355113 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				7371350A29F82B51002FC78A /* CheckoutView.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		7337DA0B29F8598700355113 /* Pueblo */ = {
+			isa = PBXGroup;
+			children = (
+				7313E03A29F7377800FA7CF2 /* PuebloView.swift */,
+			);
+			path = Pueblo;
+			sourceTree = "<group>";
+		};
+		7337DA0C29F8599500355113 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				7337DA0429F841DE00355113 /* ToursView.swift */,
+				73154F5429F7487B003E144E /* TourView.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		7337DA0D29F859A100355113 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7371350C29F82C2C002FC78A /* FormView.swift */,
+				7313E03C29F7409600FA7CF2 /* NosotrosView.swift */,
+				73A68B9029F718E000C6BF64 /* MenuView.swift */,
+				7337DA1529F85D9100355113 /* EstadosView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		7337DA0E29F859C700355113 /* Estado */ = {
+			isa = PBXGroup;
+			children = (
+				7337DA0F29F85A1D00355113 /* ChiapasView.swift */,
+				7337DA1129F85AC300355113 /* GuerreroView.swift */,
+				7337DA1329F85CDF00355113 /* OaxacaView.swift */,
+			);
+			path = Estado;
+			sourceTree = "<group>";
+		};
 		73A68B9229F71D1A00C6BF64 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +234,7 @@
 				7313E03E29F744A400FA7CF2 /* SquareTopImage.swift */,
 				7313E03229F734EB00FA7CF2 /* TitlePueblo.swift */,
 				7337DA0629F8428200355113 /* TitleTour.swift */,
+				7337DA1B29F8647700355113 /* TitleEstado.swift */,
 				7337DA0229F83D1500355113 /* PuebloCard.swift */,
 				7337DA0829F8439400355113 /* TourCard.swift */,
 				7313E03429F7352100FA7CF2 /* CircleImage.swift */,
@@ -189,13 +246,11 @@
 		73A68B9529F7210100C6BF64 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7313E03A29F7377800FA7CF2 /* PuebloView.swift */,
-				73154F5429F7487B003E144E /* TourView.swift */,
-				7337DA0429F841DE00355113 /* ToursView.swift */,
-				7371350A29F82B51002FC78A /* CheckoutView.swift */,
-				7371350C29F82C2C002FC78A /* FormView.swift */,
-				7313E03C29F7409600FA7CF2 /* NosotrosView.swift */,
-				73A68B9029F718E000C6BF64 /* MenuView.swift */,
+				7337DA0E29F859C700355113 /* Estado */,
+				7337DA0D29F859A100355113 /* Menu */,
+				7337DA0C29F8599500355113 /* Tour */,
+				7337DA0B29F8598700355113 /* Pueblo */,
+				7337DA0A29F8597B00355113 /* Checkout */,
 				73A68B9629F7210600C6BF64 /* Auth */,
 			);
 			path = Views;
@@ -366,12 +421,17 @@
 				7313E03D29F7409600FA7CF2 /* NosotrosView.swift in Sources */,
 				73FB0EC929F6EEF600E8002F /* LoginView.swift in Sources */,
 				73154F5529F7487B003E144E /* TourView.swift in Sources */,
+				7337DA1229F85AC300355113 /* GuerreroView.swift in Sources */,
+				7337DA1029F85A1D00355113 /* ChiapasView.swift in Sources */,
 				7318A93629F6E721006B7879 /* Objetivo1App.swift in Sources */,
 				7337DA0929F8439400355113 /* TourCard.swift in Sources */,
 				73154F5729F74A8F003E144E /* ContentView.swift in Sources */,
 				73A68B9929F729D500C6BF64 /* Models.swift in Sources */,
 				73A68B9B29F72A0500C6BF64 /* Data.swift in Sources */,
+				7337DA1629F85D9100355113 /* EstadosView.swift in Sources */,
+				7337DA1429F85CDF00355113 /* OaxacaView.swift in Sources */,
 				7371350B29F82B51002FC78A /* CheckoutView.swift in Sources */,
+				7337DA1C29F8647700355113 /* TitleEstado.swift in Sources */,
 				7371350D29F82C2C002FC78A /* FormView.swift in Sources */,
 				7337DA0729F8428200355113 /* TitleTour.swift in Sources */,
 				7313E03529F7352100FA7CF2 /* CircleImage.swift in Sources */,

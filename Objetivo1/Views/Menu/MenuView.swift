@@ -22,6 +22,7 @@ struct MenuView: View {
                     .frame(width: 300)
 
                 NavigationLink {
+                    EstadosView()
                 } label: {
                     MenuButton(text: "Estados")
                 }
@@ -36,6 +37,7 @@ struct MenuView: View {
                     MenuButton(text: "Nosotros")
                 }
                 NavigationLink {
+                    FormView()
                 } label: {
                     MenuButton(text: "Contáctanos")
                 }
